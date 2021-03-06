@@ -622,7 +622,7 @@ p {
 /* Media Query For Mobiles */
 @media only screen and (min-width: 480px) {
 	#contact .section-title {
-	font-size: 3.5rem;
+	font-size: 3rem;
 	text-align: center;
 	}
 	#contact .contact-item {
