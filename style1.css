@@ -269,7 +269,7 @@ p {
 	padding-bottom: 20px
 }
 #skills .skills{
-	width: 420px;
+	width: 340px;
 	margin: 30px auto;
 	color: white;
 	padding-bottom: 20px;
@@ -284,12 +284,12 @@ p {
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-bottom: 20px;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 #skills .bar{
 	display: block;
 	height: 2px;
-	width: 390px;
+	width: 305px;
 	box-shadow: 0 0 10px #53204C;
 	margin-top: 8px;
 }
@@ -619,6 +619,16 @@ p {
 }
 /* End Keyframes */
 
+/* Media Query For Mobiles */
+@media only screen and (min-width: 480px) {
+	#contact .section-title {
+	font-size: 3.8rem;
+	}
+	#contact .contact-item {
+	width: 85%;
+	}
+}
+/*End media query for Mobile*/
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
@@ -770,6 +780,9 @@ p {
 	}
 	/* End header */
 	/* skills */
+	#skills .section-title {
+		text-align: center;
+	}
 	#skills .skills {
 		width: 900px;	
 	}
@@ -789,3 +802,4 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
