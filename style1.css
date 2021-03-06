@@ -627,6 +627,7 @@ p {
 	}
 	#contact .contact-item {
 	width: 75%;
+	width: 300px;
 	margin-left: 40px;
 	}
 }
